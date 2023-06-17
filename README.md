@@ -25,7 +25,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Com a Mochila de Viagem, você pode adicionar e remover itens em uma lista de forma fácil e dinâmica.
 
-- [Acesse o projeto finalizado, online](https://backpack-phi.vercel.app/)
+- [Deploy](https://backpack-phi.vercel.app/)
 
 <br>
 

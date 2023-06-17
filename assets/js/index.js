@@ -19,6 +19,11 @@ form.addEventListener("submit", (evento) => {
         "quantidade": quantidade.value
     }
 
+    if(nome.value == '' || quantidade.value == ''){
+        alert('insira os valores corretamente');
+        return;
+    }
+
     if (existe) {
         itemAtual.id = existe.id
         
@@ -32,6 +37,7 @@ form.addEventListener("submit", (evento) => {
 
         itens.push(itemAtual)
     }
+
 
     localStorage.setItem("itens", JSON.stringify(itens))
 
